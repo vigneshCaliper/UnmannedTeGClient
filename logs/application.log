@@ -1,0 +1,15 @@
+2019-10-17 12:52:44,339 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-2 - application.conf @ file:/Users/apple/play-workspace/unmannedapp/target/scala-2.12/classes/application.conf: 21: user is deprecated, use username instead
+2019-10-17 12:52:44,340 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-2 - application.conf @ file:/Users/apple/play-workspace/unmannedapp/target/scala-2.12/classes/application.conf: 22: pass is deprecated, use password instead
+2019-10-17 12:52:44,345 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:jtds:sqlserver://averytestdb.cpvfmbswjy3j.us-east-2.rds.amazonaws.com:1433/AVERYTEST;instance=SQL2012
+2019-10-17 12:52:44,363 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2019-10-17 12:55:09,064 [WARN] from akka.util.ManifestInfo in application-akka.actor.default-dispatcher-2 - Detected possible incompatible versions on the classpath. Please note that a given Akka version MUST be the same across all modules of Akka that you are using, e.g. if you use [2.5.23] all other modules that are released together MUST be of the same version. Make sure you're using a compatible set of libraries. Possibly conflicting versions [2.5.23, 2.5.13] in libraries [akka-protobuf:2.5.23, akka-actor-typed:2.5.13, akka-actor:2.5.23, akka-slf4j:2.5.23, akka-stream:2.5.23]
+2019-10-17 12:55:09,081 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-10-17 12:55:09,173 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
+2019-10-17 12:55:28,025 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-shutdown-hook-1 - Stopping server...
+2019-10-17 12:55:28,052 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2019-10-17 12:55:58,045 [WARN] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-4 - CoordinatedShutdown from JVM shutdown failed: Futures timed out after [30000 milliseconds]

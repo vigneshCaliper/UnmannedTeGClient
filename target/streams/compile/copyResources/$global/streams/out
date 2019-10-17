@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/apple/play-workspace/unmannedapp/conf/logback.xml,/Users/apple/play-workspace/unmannedapp/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/apple/play-workspace/unmannedapp/conf/application.conf,/Users/apple/play-workspace/unmannedapp/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/apple/play-workspace/unmannedapp/conf/routes,/Users/apple/play-workspace/unmannedapp/target/scala-2.12/classes/routes)[0m
